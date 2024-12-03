@@ -1,145 +1,16 @@
-# Site Configuration
-repository: sproogen/resume-theme
-favicon: images/dmlogo.png
+remote_theme: mmistakes/minimal-mistakes
 
-# Content configuration version
-version: 2
+title: "Dominic Minischetti"
+description: "My personal website"
+url: "https://dminischetti.github.io"
+baseurl: ""
 
-# Personal Info
-name: Dominic Minischetti
-title: PHP Backend Engineer
-email: dominic.minischetti@gmail.com
-website: https://minischetti.org
+author:
+  name: "Dominic Minischetti"
+  email: "your-email@example.com"
 
-# Dark Mode (true/false/never)
-darkmode: true  # Enabled dark mode support
-
-# Social Links with Icons
-linkedin_username: dminischetti
-github_username: dminischetti
-twitter_username: dominischetti
-instagram_username: dminischetti
-facebook_username: dominic.minischetti
-
-# Additional Icon Links
-additional_links:
-  - title: GitHub
-    icon: fab fa-github
-    url: https://github.com/dminischetti
-  - title: LinkedIn
-    icon: fab fa-linkedin
-    url: https://www.linkedin.com/in/dminischetti/
-
-# About Section
-about_title: About Me
-about_profile_image: images/IMG_1687.JPG
-about_content: |
-  **Building efficient solutions for real-world problems.**
-
-  PHP Backend Engineer with over 5 years of experience in eCommerce, logistics, and web application development. Proven track record in building high-performance systems and optimizing database architectures. Skilled in agile methodologies and dedicated to clean, efficient code and exceptional user experiences.
-
-  Currently expanding my expertise in Laravel and modern PHP frameworks to deliver scalable and robust applications.
-
-content:
-  - title: Professional Experience
-    layout: list
-    content:
-      - layout: left
-        title: Backend PHP Developer
-        sub_title: BLOX Digital
-        caption: July 2024 - Present
-        description: |
-            - Enhancing CMS for media clients, troubleshooting to optimize system reliability.
-            - Collaborate with development teams to identify areas for improved system performance.
-
-      - layout: left
-        title: Backend PHP Developer
-        sub_title: Appliances Connection
-        caption: May 2022 - March 2024
-        description: |
-            - Built a Warehouse Management System (WMS) with PHP, JavaScript, and MySQL, improving inventory tracking and workflow efficiency.
-            - Developed responsive interfaces for warehouse operations, enhancing team productivity.
-
-      - layout: left
-        title: Full Stack Developer
-        sub_title: Kingsleague GmbH
-        caption: August 2021 - May 2022
-        description: |
-            - Developed high-performance web applications with PHP, MySQL, Firebase, and Docker.
-            - Streamlined deployments with Nginx and Docker, and automated testing with Python and Selenium.
-
-      - layout: left
-        title: Data Analyst & Database Administrator
-        sub_title: Call2U srl (rebranded as Eiffel srl)
-        caption: September 2010 - October 2015
-        description: |
-            - Diagnosed and resolved software, hardware, and connectivity issues, ensuring smooth system operations.
-            - Transitioned, designed, and maintained multiple instances of Service Manager on Windows platforms using Microsoft SQL Server as the T-SQL backend.
-            - Administered SQL Server databases and provided mentorship to junior administrators.
-            - Implemented SQL Server-based solutions for data consolidation and reporting, enhancing data analysis capabilities.
-            - Managed daily database administration tasks, including monitoring SQL Server performance and addressing user requests.
-
-  - title: Education
-    layout: list
-    content:
-      - layout: left
-        title: CUNY New York City College of Technology
-        caption: 2020
-        sub_title: Bachelor of Technology, Computer Information Systems (Database Track)
-        description: |
-          - GPA: 3.7/4. Specialized in Oracle SQL Developer, Microsoft SQL Server, and database management.
-
-      - layout: left
-        title: University of Bari, Italy
-        caption: 2000
-        sub_title: Coursework in Computer and Information Sciences
-        description: |
-          - Gained a foundational understanding of programming with Java, C++, and Python.
-
-  - title: Certifications & Additional Courses
-    layout: list
-    content:
-      - layout: left
-        title: MongoDB University
-        caption: 2021
-        sub_title: MongoDB Course
-      - layout: left
-        title: NYC College of Technology
-        caption: 2019
-        sub_title: Project Management
-
-  - title: Technical Skills
-    layout: text
-    content: |
-        - **Programming Languages**: PHP, Python, JavaScript
-        - **Frameworks & Libraries**: Laravel, Bootstrap, jQuery, Smarty
-        - **Database Management**: SQL Server, MySQL, MariaDB, MongoDB
-        - **DevOps Tools**: Docker, Nginx, Git, Jenkins
-        - **API Development**: RESTful API design and integration
-        - **Development Methodologies**: Agile (Kanban), OOP, MVC Architecture
-        - **Operating Systems & Servers**: Linux, Apache, IIS, Windows
-
-  - title: Soft Skills
-    layout: text
-    content: |
-        - Collaborative and effective team player
-        - Clear communicator with a focus on detail
-        - Strong time management and organizational skills
-        - Adaptable to new tools and technologies
-        - Problem-solver with a results-driven mindset
-
-  - title: Languages
-    layout: text
-    content: |
-        - **Italian**: Native
-        - **English**: Fluent (professional proficiency)
-        - **Spanish**: Elementary (basic conversations)
-
-# Footer
-footer_show_references: false
-
-# Build Settings
-remote_theme: sproogen/resume-theme
-sass:
-  sass_dir: _sass
-  style: compressed
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
