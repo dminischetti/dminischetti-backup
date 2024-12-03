@@ -1,24 +1,25 @@
-# Basic site settings
+remote_theme: mmistakes/minimal-mistakes@4.26.2
+
 title: "Dominic Minischetti"
 description: "My personal website"
-url: "https://dminischetti.github.io" # Update if using a custom domain
-baseurl: "" # Leave empty for GitHub Pages root
+url: "https://dminischetti.github.io"
+baseurl: ""
 
-# Use Minimal Mistakes as a remote theme
-remote_theme: "mmistakes/minimal-mistakes@4.26.2" # Latest stable version
+author:
+  name: "Dominic Minischetti"
+  email: "dominic.minischetti@gmail.com"
 
-# Dark Mode Settings
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      classes: "dark-mode"
-
-# Plugins required for the theme
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+
+# Dark Mode Support
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      classes: "dark-mode"
