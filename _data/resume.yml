@@ -1,0 +1,50 @@
+professional_experience:
+  - title: Backend PHP Developer
+    sub_title: BLOX Digital
+    caption: July 2024 - Present
+    description: |
+      - Enhancing CMS for media clients, troubleshooting to optimize system reliability.
+      - Collaborate with development teams to identify areas for improved system performance.
+
+  - title: Backend PHP Developer
+    sub_title: Appliances Connection
+    caption: May 2022 - March 2024
+    description: |
+      - Built a Warehouse Management System (WMS) with PHP, JavaScript, and MySQL, improving inventory tracking and workflow efficiency.
+      - Developed responsive interfaces for warehouse operations, enhancing team productivity.
+
+education:
+  - title: CUNY New York City College of Technology
+    caption: 2020
+    sub_title: Bachelor of Technology, Computer Information Systems (Database Track)
+    description: |
+      - GPA: 3.7/4. Specialized in Oracle SQL Developer, Microsoft SQL Server, and database management.
+
+certifications:
+  - title: MongoDB University
+    caption: 2021
+    sub_title: MongoDB Course
+  - title: NYC College of Technology
+    caption: 2019
+    sub_title: Project Management
+
+technical_skills: |
+  - **Programming Languages**: PHP, Python, JavaScript
+  - **Frameworks & Libraries**: Laravel, Bootstrap, jQuery, Smarty
+  - **Database Management**: SQL Server, MySQL, MariaDB, MongoDB
+  - **DevOps Tools**: Docker, Nginx, Git, Jenkins
+  - **API Development**: RESTful API design and integration
+  - **Development Methodologies**: Agile (Kanban), OOP, MVC Architecture
+  - **Operating Systems & Servers**: Linux, Apache, IIS, Windows
+
+soft_skills: |
+  - Collaborative and effective team player
+  - Clear communicator with a focus on detail
+  - Strong time management and organizational skills
+  - Adaptable to new tools and technologies
+  - Problem-solver with a results-driven mindset
+
+languages: |
+  - **Italian**: Native
+  - **English**: Fluent (professional proficiency)
+  - **Spanish**: Elementary (basic conversations)
