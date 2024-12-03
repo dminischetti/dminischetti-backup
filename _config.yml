@@ -16,13 +16,17 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
-# Dark Mode Support
 defaults:
   - scope:
       path: ""
       type: "pages"
     values:
-      classes: "dark-mode"
+      layout: single
+      classes: dark-mode
+
 collections:
-  pages:
+  posts:
     output: true
+
+paginate: 5 # Numero di articoli per pagina (opzionale)
+paginate_path: "/articles/page:num/"
