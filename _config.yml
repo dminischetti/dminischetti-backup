@@ -30,3 +30,4 @@ collections:
 
 paginate: 5 # Numero di articoli per pagina (opzionale)
 paginate_path: "/articles/page:num/"
+darkmode: true
