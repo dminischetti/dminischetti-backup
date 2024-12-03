@@ -7,6 +7,14 @@ baseurl: "" # Leave empty for GitHub Pages root
 # Use Minimal Mistakes as a remote theme
 remote_theme: "mmistakes/minimal-mistakes@4.26.2" # Latest stable version
 
+# Dark Mode Settings
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      classes: "dark-mode"
+
 # Plugins required for the theme
 plugins:
   - jekyll-remote-theme
